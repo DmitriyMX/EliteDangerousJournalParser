@@ -3,12 +3,9 @@ package com.atomrockets.edbounty.models;
 import lombok.Data;
 
 @Data
-public class MarketSell extends AbstractEvent {
+public class SellDrones extends AbstractEvent {
     private String type;
     private int count;
     private long sellPrice;
     private long totalSale;
-    private long avgPricePaid;
-    private boolean stolenGoods;
-    private boolean blackMarket;
 }

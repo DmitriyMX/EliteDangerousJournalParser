@@ -12,6 +12,6 @@ public class ParseJournalServiceTests {
     public void testParsingJsonFiles() throws IOException {
         ParseJournalService parseJournalService = new ParseJournalService();
         List<AbstractEvent> eventList = parseJournalService.parseJournalFile();
-        eventList.forEach(x -> System.out.println(x));
+//        eventList.forEach(x -> System.out.println(x));
     }
 }

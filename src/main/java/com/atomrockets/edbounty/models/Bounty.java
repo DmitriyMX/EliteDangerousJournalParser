@@ -1,7 +1,6 @@
 package com.atomrockets.edbounty.models;
 
 import com.atomrockets.edbounty.models.submodels.Rewards;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.util.List;
@@ -13,4 +12,5 @@ public class Bounty extends AbstractEvent {
     private String target;
     private long totalReward;
     private String victimFaction;
+    private int sharedWithOthers;
 }

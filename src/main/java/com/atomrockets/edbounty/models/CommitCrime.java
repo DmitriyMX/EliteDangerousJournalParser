@@ -10,5 +10,6 @@ public class CommitCrime extends AbstractEvent {
     private String victim;
     @JsonProperty("Victim_Localised")
     private String vicitimLocalised;
+    private long fine;
     private long bounty;
 }
